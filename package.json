@@ -1,0 +1,30 @@
+{
+  "name": "repl-watcher",
+  "version": "1.0.0",
+  "description": "Watch JavaScript files and start a REPL when a file changes",
+  "scripts": {
+    "start": "./start-chokidar.sh"
+  },
+  "bin": {
+    "repl-watcher": "./start-chokidar.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [
+    "REPL",
+    "watch",
+    "watcher",
+    "chokidar",
+    "file",
+    "files",
+    "change",
+    "changes"
+  ],
+  "author": "Tim Sprowl",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar-cli": "^3.0.0"
+  }
+}
